@@ -1,7 +1,7 @@
 "use client";
 import useSWR from "swr";
-import api from "../../lib/api";
-import { useAuth } from "../../context/AuthContext";
+import api from "../../../lib/api";
+import { useAuth } from "../../../context/AuthContext";
 import { useRouter } from "next/navigation";
 import { useEffect } from "react";
 
